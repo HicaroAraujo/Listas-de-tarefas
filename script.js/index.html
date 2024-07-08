@@ -1,0 +1,82 @@
+<!-- lista de tarefa -->
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+ </head>
+ <body> <header><h1>Lista de Tarefas </h1></header>
+   
+    <main>
+  
+   <div class="inputs">
+       <input id="nome" type="text" placeholder="Digite sua Tarefa">
+
+    <select id="select" ><!-- menu suspenso -->
+        <option  value="alta">Alta</option>
+        <option  value="media">Média</option>
+        <option value="baixa">Baixa</option>
+    </select>
+     <button id="button" onclick="adicionar()">adicionar</button>
+   </div>
+   
+  <div class="estilista">
+      <div  >
+      <h3 id="prioridades">Legenda de prioridades</h3>
+
+      <ul class="lista">
+         <li  class="alta">Alta</li>
+         <li class="media">Média</li>         
+         <li class="baixa">Baixa</li>
+      </ul>
+    </div>
+    
+  </div>
+   
+
+    <div>
+      <h2>Pendentes</h2> 
+      <ul id="relacionados">
+
+     </ul>
+    </div>
+
+    <div  >
+      <h2>Concluídas</h2> 
+       <ul id="concluidas">
+
+       </ul>
+        
+        
+
+       
+    </div>
+
+
+    </main>
+    <footer> 
+      <h1 class="direitos"> &copy; Todos os direitos resevados</h1>
+    
+     <p>criador do site: Hicaro Vinivios Sobieszczanski de Araujo</p>
+     <br>
+     <br>
+     <p>contatos</p>
+     <br>
+     <ol class="list-unstyled d-flex justify-content-center  ">
+      
+      <li> <a href="https://www.facebook.com/hicaro.araujo.5"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+      <li><a href="https://github.com/HicaroAraujo"><i class="fa-brands fa-github"></i> Github</a></li>
+      <li><a href="https://www.linkedin.com/in/hicaro-vinicios-sobieszczanski-de-araujo-39a392310?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHDw%2FEhf%2BSTGwqf85b2et5w%3D%3D"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+      <li><a href=""><i class="fa-solid fa-phone"></i> </i>(51) 995748289 <i class="fa-brands fa-whatsapp">  </a> </li>
+    </ol>
+    
+
+    </footer>
+   
+
+    <script src="script.js"></script>
+ </body>
+ </html>
